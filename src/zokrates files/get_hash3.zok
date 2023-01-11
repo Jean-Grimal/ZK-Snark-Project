@@ -1,0 +1,5 @@
+import "hashes/sha256/sha256" as sha256
+
+def main(private u32[3][16] a) -> u32[8]:
+    u32[8] h = sha256(a)
+	return h
